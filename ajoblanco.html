@@ -37,25 +37,6 @@
         <p>&copy; 2024 Ajoblanco</p>
     </footer>
 
-    <script>
-        // Cargar y mostrar precios desde el JSON
-        fetch('precios.json')
-            .then(data => {
-                const preciosContainer = document.getElementById('prices');
-
-                data.productos.forEach(producto => {
-                    const productoElement = document.createElement('article');
-                    productoElement.className = 'item';
-                    productoElement.innerHTML = `
-                        <h2>${producto.nombre}</h2>
-                        <p>Precio: $${producto.precio.toFixed(2)}</p>
-                    `;
-                    preciosContainer.appendChild(productoElement);
-                });
-            })
-            .catch(error => console.error('Error al cargar precios:', error));
-    </script>
-
 </body>
 </html>
 

@@ -9,7 +9,7 @@ fetch('precios.json')
             productoElement.className = 'item';
             productoElement.innerHTML = `
                 <h2>${producto.nombre}</h2>
-                <p>Precio: $${producto.precio.toFixed(2)}</p>
+                <p>Precio: $${producto.precio.toFixed(0)}</p>
             `;
             preciosContainer.appendChild(productoElement);
         });
