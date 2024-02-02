@@ -1,0 +1,37 @@
+// Cargar y mostrar precios desde el JSON
+fetch('precios.json')
+    .then(response => response.json())
+    .then(data => {
+        const preciosContainer = document.getElementById('prices');
+
+        data.productos.forEach(producto => {
+            const productoElement = document.createElement('article');
+            productoElement.className = 'item';
+            productoElement.innerHTML = `
+                <h2>${producto.nombre}</h2>
+                <p>Precio: $${producto.precio.toFixed(2)}</p>
+            `;
+            preciosContainer.appendChild(productoElement);
+        });
+    })
+    .catch(error => console.error('Error al cargar precios:', error));
+
+
+    function submitForm() {
+        // Obtener los valores del formulario
+        const school = document.getElementById('school').value;
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const email = document.getElementById('email').value;
+        const studentName = document.getElementById('student-name').value;
+        const course = document.getElementById('course').value;
+    
+        // Crear el mensaje para WhatsApp
+        const whatsappMessage = `¡Nuevo contacto!\nColegio: ${school}\nNombre: ${name}\nTeléfono: ${phone}\nCorreo: ${email}\nNombre del Alumno: ${studentName}\nCurso: ${course}`;
+    
+        // Crear el enlace de WhatsApp con el mensaje
+        const whatsappLink = `https://wa.me/3156481864?text=${encodeURIComponent(whatsappMessage)}`;
+    
+        // Redirigir a la página de WhatsApp
+        window.location.href = whatsappLink;
+    }

@@ -1,0 +1,156 @@
+body {
+    font-family: 'Silently Free Regular', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+header {
+    background-color: white;
+    color: #5E3915;
+    text-align: center;
+    padding: 1em;
+    display: flex; /* Alinea los elementos hijos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+    margin-right: 50px; /* Ajusta el margen entre el logo y el título */
+}
+
+h1 {
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+}
+
+.prices {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para cada elemento de la lista de precios */
+.item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.menu-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.menu-card img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-card h2 {
+    margin: 10px 0;
+}
+
+.menu-card a {
+    text-decoration: none;
+    color: #5E3915;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #196ca0;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px; /* Establece el ancho máximo de la tarjeta */
+    margin: 20px auto; /* Centra la tarjeta en la pantalla */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+}
+
+.contact-form h2 {
+    color: #5E3915;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #5E3915;
+}
+
+.contact-form select,
+.contact-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #5E3915;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #452b0e;
+}
+
+.contact-form p {
+    margin-top: 10px;
+}
+
+.contact-form a {
+    color: #5E3915;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-form img {
+    width: 20px; /* Ajusta el tamaño según tus preferencias */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin-right: 5px; /* Añade un pequeño margen a la derecha del logo */
+}
+
+.contact-form p {
+    margin-top: 10px;
+}
+
+.contact-form a {
+    color: #5E3915;
+    font-weight: bold;
+    text-decoration: none;
+}

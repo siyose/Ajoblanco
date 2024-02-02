@@ -1,0 +1,276 @@
+{
+  "productos": [
+    {
+      "nombre": "Chocolates",
+      "precio": 2.00
+    },
+    {
+      "nombre": "Galletas",
+      "precio": 1.50
+    },
+    {
+      "nombre": "Caramelos",
+      "precio": 0.75
+    },
+    {
+      "nombre": "Gomitas",
+      "precio": 1.25
+    },
+    {
+      "nombre": "Paletas",
+      "precio": 1.50
+    },
+    {
+      "nombre": "Bombones",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Barra de Caramelo",
+      "precio": 1.00
+    },
+    {
+      "nombre": "Muffins",
+      "precio": 2.75
+    },
+    {
+      "nombre": "Donas",
+      "precio": 1.80
+    },
+    {
+      "nombre": "Galletas Rellenas",
+      "precio": 2.20
+    },
+    {
+      "nombre": "Pastelitos",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Chicles",
+      "precio": 0.50
+    },
+    {
+      "nombre": "Malvaviscos",
+      "precio": 1.00
+    },
+    {
+      "nombre": "Barra de Chocolate",
+      "precio": 3.00
+    },
+    {
+      "nombre": "Cubiertos de Chocolate",
+      "precio": 2.75
+    },
+    {
+      "nombre": "Turrón",
+      "precio": 1.90
+    },
+    {
+      "nombre": "Barras de Cereal",
+      "precio": 1.25
+    },
+    {
+      "nombre": "Frutas Secas",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Gelatinas",
+      "precio": 1.20
+    },
+    {
+      "nombre": "Chocolate Caliente",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Barra de Caramelo con Nueces",
+      "precio": 2.75
+    },
+    {
+      "nombre": "Mazapanes",
+      "precio": 1.30
+    },
+    {
+      "nombre": "Palomitas de Maíz",
+      "precio": 1.00
+    },
+    {
+      "nombre": "Helados",
+      "precio": 3.50
+    },
+    {
+      "nombre": "Milkshakes",
+      "precio": 4.00
+    },
+    {
+      "nombre": "Tarta de Queso",
+      "precio": 2.80
+    },
+    {
+      "nombre": "Tarta de Manzana",
+      "precio": 3.00
+    },
+    {
+      "nombre": "Cupcakes",
+      "precio": 1.75
+    },
+    {
+      "nombre": "Brownies",
+      "precio": 2.25
+    },
+    {
+      "nombre": "Tiramisú",
+      "precio": 3.20
+    },
+    {
+      "nombre": "Pastel de Zanahoria",
+      "precio": 2.80
+    },
+    {
+      "nombre": "Pastel de Chocolate",
+      "precio": 3.00
+    },
+    {
+      "nombre": "Tarta de Limón",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Macarons",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Gelato",
+      "precio": 3.50
+    },
+    {
+      "nombre": "Palitos de Chocolate",
+      "precio": 1.50
+    },
+    {
+      "nombre": "Piruletas",
+      "precio": 0.80
+    },
+    {
+      "nombre": "Caramelos de Menta",
+      "precio": 1.20
+    },
+    {
+      "nombre": "Galletas de Avena",
+      "precio": 1.50
+    },
+    {
+      "nombre": "Barra de Granola",
+      "precio": 2.00
+    },
+    {
+      "nombre": "Galletas de Jengibre",
+      "precio": 1.80
+    },
+    {
+      "nombre": "Cubiertos de Caramelo",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Galletas de Chispas de Chocolate",
+      "precio": 1.75
+    },
+    {
+      "nombre": "Caramelos de Frutas",
+      "precio": 1.10
+    },
+    {
+      "nombre": "Tarta de Fresa",
+      "precio": 2.90
+    },
+    {
+      "nombre": "Churros",
+      "precio": 1.50
+    },
+    {
+      "nombre": "Rosquillas",
+      "precio": 1.40
+    },
+    {
+      "nombre": "Candies de Café",
+      "precio": 1.75
+    },
+    {
+      "nombre": "Barra de Cereza",
+      "precio": 2.20
+    },
+    {
+      "nombre": "Helado de Vainilla",
+      "precio": 3.00
+    },
+    {
+      "nombre": "Barra de Chocolate Blanco",
+      "precio": 2.80
+    },
+    {
+      "nombre": "Pastel de Frutas",
+      "precio": 3.50
+    },
+    {
+      "nombre": "Muffins de Arándanos",
+      "precio": 2.00
+    },
+    {
+      "nombre": "Barquillos",
+      "precio": 1.80
+    },
+    {
+      "nombre": "Barra de Miel",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Tarta de Coco",
+      "precio": 2.80
+    },
+    {
+      "nombre": "Galletas de Mantequilla",
+      "precio": 1.60
+    },
+    {
+      "nombre": "Trufas de Chocolate",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Caramelos de Canela",
+      "precio": 1.30
+    },
+    {
+      "nombre": "Pastel de Tres Leches",
+      "precio": 3.20
+    },
+    {
+      "nombre": "Helado de Fresa",
+      "precio": 3.20
+    },
+    {
+      "nombre": "Galletas de Chocolate y Nueces",
+      "precio": 1.90
+    },
+    {
+      "nombre": "Barra de Avellanas",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Cupcakes de Vainilla",
+      "precio": 1.75
+    },
+    {
+      "nombre": "Candies de Cereza",
+      "precio": 1.20
+    },
+    {
+      "nombre": "Pastel de Menta y Chocolate",
+      "precio": 3.00
+    },
+    {
+      "nombre": "Macarons de Frambuesa",
+      "precio": 2.50
+    },
+    {
+      "nombre": "Galletas de Almendra",
+      "precio": 1.80
+    }
+  ]
+}
