@@ -154,3 +154,17 @@ footer {
     font-weight: bold;
     text-decoration: none;
 }
+
+#search {
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: 1px solid #5E3915; /* Color del borde */
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5E3915; /* Color del texto de la etiqueta */
+}

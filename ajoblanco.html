@@ -19,10 +19,19 @@
         <br>
         <br>
     </header>
+    
+
 
     <section id="prices" class="prices">
+        <div>
+            <label for="search">Buscar por nombre:</label>
+            <input type="text" id="search" oninput="filterProducts()" placeholder="Ingrese el nombre del producto">
+        </div>
+        <br><br>
         <!-- Contenedor para los precios cargados desde el JSON -->
     </section>
+    <br>
+    <br>
 
     <footer>
         <p>&copy; 2024 Ajoblanco</p>
@@ -31,7 +40,6 @@
     <script>
         // Cargar y mostrar precios desde el JSON
         fetch('precios.json')
-            .then(response => response.json())
             .then(data => {
                 const preciosContainer = document.getElementById('prices');
 

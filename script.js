@@ -35,3 +35,21 @@ fetch('precios.json')
         // Redirigir a la página de WhatsApp
         window.location.href = whatsappLink;
     }
+
+    function filterProducts() {
+        const searchInput = document.getElementById('search');
+        const searchText = searchInput.value.toLowerCase();
+        const pricesContainer = document.getElementsByClassName('item');
+        
+    
+        for (const product of pricesContainer) {
+            const productName = product.querySelector('h2').innerText.toLowerCase();
+            console.log(productName);
+            if (productName.includes(searchText)) {
+                console.log(productName)
+                product.style.display = 'block';
+            } else {
+                product.style.display = 'none';
+            }
+        }
+    }
