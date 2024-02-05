@@ -168,3 +168,68 @@ label {
     margin-bottom: 5px;
     color: #5E3915; /* Color del texto de la etiqueta */
 }
+
+
+.money-calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.money-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.money-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.money-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.total-all {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #5E3915;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.image-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.image-card {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+    width: 600px;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0; /* Bordes redondeados solo en la parte superior */
+}

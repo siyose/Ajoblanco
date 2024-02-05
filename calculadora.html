@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de Dinero - Ajoblanco</title>
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="Logo_Ajoblanco.png" alt="Logo de la Tienda">
+        </div>
+        <h1>Ajoblanco Cocina Gourmet!</h1>
+        <br>
+        <br>
+    </header>
+
+    <section id="money-calculator" class="money-calculator">
+        <form class="money-form" oninput="calculateTotal()">
+            <label for="denomination-50000">50000:</label>
+            <input type="number" id="denomination-50000" name="denomination-50000" required>
+
+            <label for="denomination-20000">20000:</label>
+            <input type="number" id="denomination-20000" name="denomination-20000" required>
+
+            <!-- Repite para las demás denominaciones -->
+
+            <div class="total-all">
+                <label for="total-all">Total:</label>
+                <output id="total-all" name="total-all">$0</output>
+            </div>
+
+            <button type="submit">Calcular</button>
+        </form>
+    </section>
+  
+    <footer>
+        <p>&copy; 2024 Ajoblanco</p>
+    </footer>
+
+</body>
+
+</html>

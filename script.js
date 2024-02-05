@@ -30,7 +30,7 @@ fetch('precios.json')
         const whatsappMessage = `¡Nuevo contacto!\nColegio: ${school}\nNombre: ${name}\nTeléfono: ${phone}\nCorreo: ${email}\nNombre del Alumno: ${studentName}\nCurso: ${course}`;
     
         // Crear el enlace de WhatsApp con el mensaje
-        const whatsappLink = `https://wa.me/3156481864?text=${encodeURIComponent(whatsappMessage)}`;
+        const whatsappLink = `https://wa.me/3185584060?text=${encodeURIComponent(whatsappMessage)}`;
     
         // Redirigir a la página de WhatsApp
         window.location.href = whatsappLink;
@@ -52,4 +52,20 @@ fetch('precios.json')
                 product.style.display = 'none';
             }
         }
+    }
+
+    function calculateTotal() {
+        const denominations = [50000, 20000, 10000, 5000, 2000, 1000, 500, 200, 100, 50];
+        let grandTotal = 0;
+    
+        denominations.forEach(denomination => {
+            const inputElement = document.getElementById(`denomination-${denomination}`);
+            const quantity = inputElement.valueAsNumber || 0;
+            const total = denomination * quantity;
+    
+            grandTotal += total;
+        });
+    
+        const totalAllElement = document.getElementById('total-all');
+        totalAllElement.textContent = `$${grandTotal}`;
     }
