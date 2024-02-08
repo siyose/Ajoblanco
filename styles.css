@@ -93,6 +93,7 @@ footer {
     max-width: 400px; /* Establece el ancho máximo de la tarjeta */
     margin: 20px auto; /* Centra la tarjeta en la pantalla */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+    margin-bottom: 40px;
 }
 
 .contact-form h2 {
@@ -102,6 +103,7 @@ footer {
 .contact-form form {
     display: grid;
     gap: 10px;
+   
 }
 
 .contact-form label {
@@ -169,12 +171,11 @@ label {
     color: #5E3915; /* Color del texto de la etiqueta */
 }
 
-
 .money-calculator {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Cambiado a min-height para garantizar que la sección sea al menos del tamaño de la pantalla */
 }
 
 .money-form {
@@ -185,22 +186,25 @@ label {
     text-align: center;
     max-width: 400px;
     width: 100%;
+    margin-bottom: 50px; /* Añadido margen inferior para dejar espacio al footer */
 }
 
 .money-form label {
-    display: block;
-    margin: 10px 0;
+    display: inline-block;
+    width: 80px; /* Ajusta el ancho según tus necesidades */
+    margin: 10px 10px 10px 0; /* Añade margen a la derecha */
 }
 
 .money-form input {
-    width: 100%;
+    width: calc(100% - 100px); /* Ajusta el ancho restante */
     padding: 8px;
     margin-top: 5px;
     box-sizing: border-box;
 }
 
 .total-all {
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 1.5em;
 }
 
 button {
@@ -218,6 +222,8 @@ button {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 2em;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .image-card {

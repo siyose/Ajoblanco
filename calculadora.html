@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Calculadora de Dinero - Ajoblanco</title>
-    <script src="calculator.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -21,21 +21,48 @@
     </header>
 
     <section id="money-calculator" class="money-calculator">
-        <form class="money-form" oninput="calculateTotal()">
+        <form class="money-form">
             <label for="denomination-50000">50000:</label>
-            <input type="number" id="denomination-50000" name="denomination-50000" required>
+            <input type="number" id="denomination-50000" name="denomination-50000" >
 
             <label for="denomination-20000">20000:</label>
-            <input type="number" id="denomination-20000" name="denomination-20000" required>
+            <input type="number" id="denomination-20000" name="denomination-20000" >
 
-            <!-- Repite para las demás denominaciones -->
+            <label for="denomination-10000">10000:</label>
+            <input type="number" id="denomination-10000" name="denomination-10000" >
+
+            <label for="denomination-5000">5000:</label>
+            <input type="number" id="denomination-5000" name="denomination-5000" >
+
+            <label for="denomination-2000">2000:</label>
+            <input type="number" id="denomination-2000" name="denomination-2000" >
+
+            <label for="denomination-1000">1000:</label>
+            <input type="number" id="denomination-1000" name="denomination-1000" >
+
+            <label for="denomination-500">500:</label>
+            <input type="number" id="denomination-500" name="denomination-500" >
+
+            <label for="denomination-200">200:</label>
+            <input type="number" id="denomination-200" name="denomination-200" >
+
+            <label for="denomination-100">100:</label>
+            <input type="number" id="denomination-100" name="denomination-100" >
+
+            <label for="denomination-50">50:</label>
+            <input type="number" id="denomination-50" name="denomination-50" >
+
+            <br> <br> 
+
+            <button type="button" onclick="calculateTotal()">Calcular</button>
+            <button type="button" onclick="clearForm()">Limpiar</button>
 
             <div class="total-all">
                 <label for="total-all">Total:</label>
                 <output id="total-all" name="total-all">$0</output>
             </div>
 
-            <button type="submit">Calcular</button>
+            
         </form>
     </section>
   

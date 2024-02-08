@@ -56,16 +56,23 @@ fetch('precios.json')
 
     function calculateTotal() {
         const denominations = [50000, 20000, 10000, 5000, 2000, 1000, 500, 200, 100, 50];
-        let grandTotal = 0;
+        let total = 0;
     
         denominations.forEach(denomination => {
-            const inputElement = document.getElementById(`denomination-${denomination}`);
-            const quantity = inputElement.valueAsNumber || 0;
-            const total = denomination * quantity;
-    
-            grandTotal += total;
+            const input = document.getElementById(`denomination-${denomination}`);
+            const value = parseInt(input.value, 10) || 0;
+            total += value * denomination;
         });
     
-        const totalAllElement = document.getElementById('total-all');
-        totalAllElement.textContent = `$${grandTotal}`;
+        const totalOutput = document.getElementById('total-all');
+        totalOutput.textContent = `$${total.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 })}`;
+    }
+    
+    function clearForm() {
+        // Limpiar todos los campos del formulario
+        const inputs = document.querySelectorAll('.money-form input[type="number"]');
+        inputs.forEach(input => input.value = '');
+    
+        // Restablecer el total a $0
+        document.getElementById('total-all').textContent = '$0';
     }
