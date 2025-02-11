@@ -6,37 +6,29 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silently+Free:wght@400&display=swap">
     <title>Lista de Precios - Ajoblanco</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-
     <header>
         <div class="logo">
             <img src="Logo_Ajoblanco.png" alt="Logo de la Tienda">
         </div>
-        <h1>Ajoblanco Cocina Gourmet!</h1>
-        <br>
-        <br>
+        <h1>Ajoblanco Cocina Gourmet</h1>
     </header>
-    
-
 
     <section id="prices" class="prices">
         <div>
             <label for="search">Buscar por nombre:</label>
             <input type="text" id="search" oninput="filterProducts()" placeholder="Ingrese el nombre del producto">
         </div>
-        <br><br>
-        <!-- Contenedor para los precios cargados desde el JSON -->
+        <div id="product-list">
+            <!-- Los productos se cargarán dinámicamente aquí -->
+        </div>
     </section>
-    <br>
-    <br>
 
     <footer>
         <p>&copy; 2024 Ajoblanco</p>
     </footer>
-
 </body>
 </html>
 

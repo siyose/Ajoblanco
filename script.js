@@ -1,21 +1,64 @@
-// Cargar y mostrar precios desde el JSON
-fetch('precios.json')
-    .then(response => response.json())
-    .then(data => {
-        const preciosContainer = document.getElementById('prices');
 
-        data.productos.forEach(producto => {
-            const productoElement = document.createElement('article');
-            productoElement.className = 'item';
-            productoElement.innerHTML = `
-                <h2>${producto.nombre}</h2>
-                <p>Precio: $${producto.precio.toFixed(0)}</p>
-            `;
-            preciosContainer.appendChild(productoElement);
+document.addEventListener('DOMContentLoaded', cargarPrecios);
+
+function cargarPrecios() {
+    fetch('precios.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error al cargar precios.');
+            }
+            return response.json();
+        })
+        .then(data => {
+            mostrarProductos(data.productos);
+        })
+        .catch(error => {
+            console.error('Error al cargar precios:', error);
+            const preciosContainer = document.getElementById('product-list');
+            preciosContainer.innerHTML = '<p>No se pudieron cargar los precios. Por favor, intente nuevamente más tarde.</p>';
         });
-    })
-    .catch(error => console.error('Error al cargar precios:', error));
+}
 
+function mostrarProductos(productos) {
+    const preciosContainer = document.getElementById('product-list');
+    preciosContainer.innerHTML = '';
+
+    if (productos.length === 0) {
+        preciosContainer.innerHTML = '<p>No se encontraron productos.</p>';
+        return;
+    }
+
+    productos.forEach(producto => {
+        const productoElement = document.createElement('article');
+        productoElement.className = 'item';
+        productoElement.innerHTML = `
+            <h2>${producto.nombre}</h2>
+            <p>Precio: $${producto.precio.toFixed(0)}</p>
+        `;
+        preciosContainer.appendChild(productoElement);
+    });
+}
+
+function filterProducts() {
+    const searchInput = document.getElementById('search').value.toLowerCase();
+
+    fetch('precios.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Error al cargar precios.');
+            }
+            return response.json();
+        })
+        .then(data => {
+            const productosFiltrados = data.productos.filter(producto =>
+                producto.nombre.toLowerCase().includes(searchInput)
+            );
+            mostrarProductos(productosFiltrados);
+        })
+        .catch(error => {
+            console.error('Error al filtrar productos:', error);
+        });
+}
 
     function submitForm() {
         // Obtener los valores del formulario
@@ -36,23 +79,7 @@ fetch('precios.json')
         window.location.href = whatsappLink;
     }
 
-    function filterProducts() {
-        const searchInput = document.getElementById('search');
-        const searchText = searchInput.value.toLowerCase();
-        const pricesContainer = document.getElementsByClassName('item');
-        
-    
-        for (const product of pricesContainer) {
-            const productName = product.querySelector('h2').innerText.toLowerCase();
-            console.log(productName);
-            if (productName.includes(searchText)) {
-                console.log(productName)
-                product.style.display = 'block';
-            } else {
-                product.style.display = 'none';
-            }
-        }
-    }
+   
 
     function calculateTotal() {
         const denominations = [50000, 20000, 10000, 5000, 2000, 1000, 500, 200, 100, 50];
