@@ -239,3 +239,20 @@ button {
     height: auto;
     border-radius: 20px 20px 0 0; /* Bordes redondeados solo en la parte superior */
 }
+
+/* Make the id="product-list" section a 3-column grid */
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#product-list .item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
