@@ -1,10 +1,6 @@
 {
   "productos": [
     {
-      "nombre": "nombre_producto",
-      "precio": null
-    },
-    {
       "nombre": "Agua Cristal grande",
       "precio": 2200
     },
