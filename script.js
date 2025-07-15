@@ -37,12 +37,6 @@ function mostrarProductos(productos) {
         `;
         preciosContainer.appendChild(productoElement);
     });
-
-    // Make the product list a 3 column grid
-    preciosContainer.style.display = 'grid';
-    preciosContainer.style.gridTemplateColumns = 'repeat(auto-fill, minmax(300px, 1fr))';
-    preciosContainer.style.gap = '20px';
-    preciosContainer.style.padding = '20px';
 }
 
 function filterProducts() {

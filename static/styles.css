@@ -241,18 +241,13 @@ button {
 }
 
 /* Make the id="product-list" section a 3-column grid */
-#product-list {
+.prices {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
     gap: 20px;
     padding: 20px;
+    justify-items: stretch;
+    align-content: stretch;
+    align-items: baseline;
+    margin-bottom: 60px;
 }
-
-#product-list .item {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-}
-
