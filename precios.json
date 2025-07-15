@@ -1,160 +1,248 @@
 {
   "productos": [
     {
-      "nombre": "Acqua Postobon",
-      "precio": 2500
+      "nombre": "nombre_producto",
+      "precio": null
     },
     {
       "nombre": "Agua Cristal grande",
-      "precio": 2000
+      "precio": 2200
     },
     {
-      "nombre": "Agua Cristal Peque\u00f1a",
-      "precio": 1000
+      "nombre": "Agua Cristal Pequeña",
+      "precio": 1100
     },
     {
-      "nombre": "Aloha Lim\u00f3n o Naranja",
-      "precio": 2000
+      "nombre": "Almendras Italo",
+      "precio": 4000
+    },
+    {
+      "nombre": "Almuerzo",
+      "precio": 12500
+    },
+    {
+      "nombre": "Aloha  Mango biche",
+      "precio": 3000
+    },
+    {
+      "nombre": "Aloha Limón o Naranja",
+      "precio": 2500
     },
     {
       "nombre": "Aloha Mix Fresh",
-      "precio": 2500
-    },
-    {
-      "nombre": "Arepas de queso",
-      "precio": 2500
-    },
-    {
-      "nombre": "Helado artesanal",
-      "precio": 3000
-    },
-    {
-      "nombre": "Barquillos",
-      "precio": 700
-    },
-    {
-      "nombre": "Bocatto 3 leches",
-      "precio": 5500
-    },
-    {
-      "nombre": "Bon bon bum",
-      "precio": 600
-    },
-    {
-      "nombre": "Brownies",
       "precio": 3500
     },
     {
-      "nombre": "Helado Casero",
-      "precio": 2500
-    },
-    {
-      "nombre": "Chicles Xtime",
-      "precio": 200
-    },
-    {
-      "nombre": "Chidos",
-      "precio": 2500
-    },
-    {
-      "nombre": "Chirricos",
-      "precio": 2000
-    },
-    {
-      "nombre": "Choco Cono",
+      "nombre": "Arepa' huevo  ",
       "precio": 3000
     },
     {
+      "nombre": "Arepas de queso",
+      "precio": 3000
+    },
+    {
+      "nombre": "Bocatto 3 leches",
+      "precio": 6000
+    },
+    {
+      "nombre": "Brazo de reina",
+      "precio": 2500
+    },
+    {
+      "nombre": "Brownies",
+      "precio": 3800
+    },
+    {
+      "nombre": "Chidos",
+      "precio": 3500
+    },
+    {
+      "nombre": "Chirricos",
+      "precio": 2200
+    },
+    {
+      "nombre": "Choclitos",
+      "precio": 2500
+    },
+    {
+      "nombre": "Choco Cono",
+      "precio": 4000
+    },
+    {
       "nombre": "Choco Disk",
+      "precio": 1800
+    },
+    {
+      "nombre": "Chocolatina Jet",
       "precio": 1000
     },
     {
       "nombre": "Chocorramo",
+      "precio": 3500
+    },
+    {
+      "nombre": "Chocorramo Esquinas",
+      "precio": 2400
+    },
+    {
+      "nombre": "Coca-Cola 250",
       "precio": 2500
     },
     {
-      "nombre": "Empanada mexicana",
-      "precio": 2700
+      "nombre": "Coca-Cola 400",
+      "precio": 4500
     },
     {
-      "nombre": "Empanadas",
-      "precio": 2500
-    },
-    {
-      "nombre": "Gala",
-      "precio": 2000
-    },
-    {
-      "nombre": "Helado Galleta",
+      "nombre": "Crispetas Ramo",
       "precio": 3000
     },
     {
+      "nombre": "Detodito Mix",
+      "precio": 3500
+    },
+    {
+      "nombre": "Doritos Dinamita",
+      "precio": 3500
+    },
+    {
+      "nombre": "Doritos Dinamita Flaming Hot",
+      "precio": 3500
+    },
+    {
+      "nombre": "Doritos flaming hot",
+      "precio": 3500
+    },
+    {
+      "nombre": "Doritos Mega queso",
+      "precio": 3500
+    },
+    {
+      "nombre": "Empanadas",
+      "precio": 3000
+    },
+    {
+      "nombre": "Flautas",
+      "precio": 3000
+    },
+    {
+      "nombre": "Frunas cuadradas",
+      "precio": 600
+    },
+    {
+      "nombre": "Frunas rellenas",
+      "precio": 400
+    },
+    {
+      "nombre": "Galletas Chocolate y vainilla",
+      "precio": 500
+    },
+    {
+      "nombre": "Galletas club social ",
+      "precio": 2000
+    },
+    {
+      "nombre": "Galletas de leche",
+      "precio": 1000
+    },
+    {
       "nombre": "Galletas mini glacitas",
-      "precio": 2300
+      "precio": 2800
+    },
+    {
+      "nombre": "Galletas ritz queso",
+      "precio": 2500
     },
     {
       "nombre": "Gansitos",
-      "precio": 1700
+      "precio": 2500
     },
     {
-      "nombre": "Grissly aros o anillos",
+      "nombre": "Gaseosa 0 ",
+      "precio": 2000
+    },
+    {
+      "nombre": "H2O 600 ML",
+      "precio": 3500
+    },
+    {
+      "nombre": "Halls pepa",
       "precio": 300
     },
     {
       "nombre": "Hamburguesa",
-      "precio": 5000
+      "precio": 6500
     },
     {
       "nombre": "Hatsu caja",
       "precio": 2000
     },
     {
-      "nombre": "Helado Jet Vainilla",
-      "precio": 4500
+      "nombre": "Helado artesanal",
+      "precio": 3500
     },
     {
-      "nombre": "Jugos hit caja",
-      "precio": 1500
-    },
-    {
-      "nombre": "Kick chupeta masticable",
-      "precio": 800
-    },
-    {
-      "nombre": "Kick man\u00ed plegadiza",
-      "precio": 1600
-    },
-    {
-      "nombre": "Maicitos",
-      "precio": 2000
-    },
-    {
-      "nombre": "Max fruta acida",
-      "precio": 200
-    },
-    {
-      "nombre": "Tea Botella x 500 ml",
+      "nombre": "Helado Casero",
       "precio": 3000
     },
     {
-      "nombre": "Muu derretida",
+      "nombre": "Helado Galleta",
+      "precio": 3500
+    },
+    {
+      "nombre": "Herpos",
+      "precio": 1500
+    },
+    {
+      "nombre": "Hit Botella ",
+      "precio": 3500
+    },
+    {
+      "nombre": "Jugos hit caja",
+      "precio": 2000
+    },
+    {
+      "nombre": "Kick maní plegadiza",
+      "precio": 1800
+    },
+    {
+      "nombre": "Maicitos",
+      "precio": 2500
+    },
+    {
+      "nombre": "Maní super ricas",
+      "precio": 2000
+    },
+    {
+      "nombre": "Mantecadas",
+      "precio": 1000
+    },
+    {
+      "nombre": "Mentas",
+      "precio": 200
+    },
+    {
+      "nombre": "Merengues",
+      "precio": 1000
+    },
+    {
+      "nombre": "Mordisqueta",
       "precio": 600
     },
     {
-      "nombre": "Natumalta",
-      "precio": 1600
+      "nombre": "Mr. Tea caja",
+      "precio": 1500
+    },
+    {
+      "nombre": "Muu derretida",
+      "precio": 1000
     },
     {
       "nombre": "Nucita",
-      "precio": 800
-    },
-    {
-      "nombre": "Nuggets nucita",
-      "precio": 800
+      "precio": 1000
     },
     {
       "nombre": "Paleta Chocolisto",
-      "precio": 2500
+      "precio": 3000
     },
     {
       "nombre": "Paleta Kids",
@@ -165,28 +253,52 @@
       "precio": 2500
     },
     {
+      "nombre": "Pastel de pollo",
+      "precio": 4000
+    },
+    {
+      "nombre": "Pastel de yuca ",
+      "precio": 3000
+    },
+    {
       "nombre": "Perros",
-      "precio": 4500
+      "precio": 6000
     },
     {
       "nombre": "Pin pop gigante",
-      "precio": 600
+      "precio": 700
     },
     {
       "nombre": "Pin pop polvo acido",
-      "precio": 800
+      "precio": 1500
     },
     {
       "nombre": "Pirulito neon",
-      "precio": 900
+      "precio": 1500
     },
     {
-      "nombre": "Ponky",
-      "precio": 1600
+      "nombre": "Pizza",
+      "precio": 4000
     },
     {
-      "nombre": "Quimbayas",
-      "precio": 800
+      "nombre": "Polet",
+      "precio": 6000
+    },
+    {
+      "nombre": "Power Ade ",
+      "precio": 3500
+    },
+    {
+      "nombre": "Pringles 37 Grs ",
+      "precio": 7000
+    },
+    {
+      "nombre": "Quatro 1,5",
+      "precio": 5250
+    },
+    {
+      "nombre": "Riquillas",
+      "precio": 2500
     },
     {
       "nombre": "Sandwich",
@@ -197,36 +309,40 @@
       "precio": 5000
     },
     {
-      "nombre": "Splot acid",
-      "precio": 800
-    },
-    {
-      "nombre": "Super crokantes",
-      "precio": 2800
-    },
-    {
       "nombre": "Tajaditas o Tajamiel",
       "precio": 2500
     },
     {
       "nombre": "Takis",
-      "precio": 3000
+      "precio": 3500
     },
     {
-      "nombre": "Tipitin corazon",
-      "precio": 300
+      "nombre": "Tea Botella x 500 ml ",
+      "precio": 3500
     },
     {
       "nombre": "Todo rico",
-      "precio": 3000
+      "precio": 3500
+    },
+    {
+      "nombre": "Todo Rico Familiar  ",
+      "precio": 8500
+    },
+    {
+      "nombre": "torta decorado porciones",
+      "precio": 4000
     },
     {
       "nombre": "Tostacos",
-      "precio": 2000
+      "precio": 2500
     },
     {
       "nombre": "Tostacos picantes",
-      "precio": 2000
+      "precio": 2500
+    },
+    {
+      "nombre": "Trocitos",
+      "precio": 3000
     },
     {
       "nombre": "Trolli Surtido",
@@ -234,135 +350,207 @@
     },
     {
       "nombre": "Vaso Aloha Kola Roman",
+      "precio": 4500
+    },
+    {
+      "nombre": "Vaso Fruta ",
       "precio": 4000
     },
     {
-      "nombre": "Mentas",
-      "precio": 200
-    },
-    {
-      "nombre": "Barrita Chocorramo",
-      "precio": 1600
-    },
-    {
-      "nombre": "Chocorramo Esquinas",
-      "precio": 2400
-    },
-    {
-      "nombre": "Crispetas Ramo",
-      "precio": 2000
-    },
-    {
-      "nombre": "H2O 250 ml",
-      "precio": 1500
-    },
-    {
-      "nombre": "Gaseosa 0",
-      "precio": 2000
-    },
-    {
-      "nombre": "Hit Botella",
-      "precio": 2800
-    },
-    {
-      "nombre": "Mr. Tea caja",
-      "precio": 1500
-    },
-    {
-      "nombre": "Arepas jamon y queso",
-      "precio": 2700
-    },
-    {
-      "nombre": "Papas rellenas",
-      "precio": 2800
-    },
-    {
-      "nombre": "Pastel de yuca",
-      "precio": 2800
-    },
-    {
-      "nombre": "Arepa' huevo",
-      "precio": 3000
-    },
-    {
-      "nombre": "Brinky de 6",
-      "precio": 1200
-    },
-    {
-      "nombre": "Brinky de 4",
-      "precio": 900
-    },
-    {
-      "nombre": "Submarino",
-      "precio": 1800
-    },
-    {
       "nombre": "Yogur con Fruta",
-      "precio": 2500
+      "precio": 4000
     },
     {
-      "nombre": "Vaso Fruta",
-      "precio": 2000
-    },
-    {
-      "nombre": "torta decorado porciones",
-      "precio": 2000
-    },
-    {
-      "nombre": "Dona Cubierta Bimbo",
+      "nombre": "yogurt botella",
       "precio": 3000
     },
     {
-      "nombre": "Coca-Cola 250",
+      "nombre": "jugo zanahoria",
+      "precio": 5000
+    },
+    {
+      "nombre": "Acqua postobon",
       "precio": 2500
     },
     {
-      "nombre": "Coca-Cola 400",
-      "precio": 3500
+      "nombre": "Nugget Nucita",
+      "precio": 1000
     },
     {
-      "nombre": "Almuerzo",
-      "precio": 12000
+      "nombre": "sparkies tira",
+      "precio": 400
     },
     {
-      "nombre": "H2O 600 ML",
-      "precio": 2700
+      "nombre": "Sparkies bubaloo grande",
+      "precio": 2000
     },
     {
-      "nombre": "Choco Muu",
-      "precio": 0
-    },
-    {
-      "nombre": "Barrilete",
+      "nombre": "Mangos super ricas",
       "precio": 300
     },
     {
-      "nombre": "Supercoco",
-      "precio": 200
+      "nombre": "Cheesecake Mil Hojaldres",
+      "precio": 4000
     },
     {
-      "nombre": "Pringles 37 Grs",
-      "precio": 6000
+      "nombre": "Chomelos",
+      "precio": 600
     },
     {
-      "nombre": "Cereales",
-      "precio": 2000
+      "nombre": "Galleta Italo grande",
+      "precio": 4500
     },
     {
-      "nombre": "Coca cola 1,5",
-      "precio": 7000
-    },
-    {
-      "nombre": "Quatro 1,5",
-      "precio": 5250
-    },
-    {
-      "nombre": "Power Ade",
+      "nombre": "Galleta Italo pequeña",
       "precio": 3500
     },
     {
-      "nombre": "Helado de Arequipe",
+      "nombre": "Alas BBQ",
+      "precio": 4000
+    },
+    {
+      "nombre": "Salchipapas",
+      "precio": 3500
+    },
+    {
+      "nombre": "Pizza",
       "precio": 3000
+    },
+    {
+      "nombre": "Choriperro",
+      "precio": 7000
+    },
+    {
+      "nombre": "Jugo natural",
+      "precio": 3000
+    },
+    {
+      "nombre": "Gelatinas",
+      "precio": 4000
+    },
+    {
+      "nombre": "Cupcakes",
+      "precio": 3500
+    },
+    {
+      "nombre": "Gomas Crack",
+      "precio": 2500
+    },
+    {
+      "nombre": "Soneto",
+      "precio": 300
+    },
+    {
+      "nombre": "Viva vita",
+      "precio": 200
+    },
+    {
+      "nombre": "Champitas grandes",
+      "precio": 7000
+    },
+    {
+      "nombre": "Masmelos",
+      "precio": 2500
+    },
+    {
+      "nombre": "Agua saborizada",
+      "precio": 1500
+    },
+    {
+      "nombre": "Halls barra ",
+      "precio": 2500
+    },
+    {
+      "nombre": "Galletas Redonditas",
+      "precio": 1500
+    },
+    {
+      "nombre": "Mentas Krash",
+      "precio": 300
+    },
+    {
+      "nombre": "Soda Hatsu",
+      "precio": 3000
+    },
+    {
+      "nombre": "Compotas",
+      "precio": 3500
+    },
+    {
+      "nombre": "Agua con Gas",
+      "precio": 2500
+    },
+    {
+      "nombre": "Natumalta",
+      "precio": 2000
+    },
+    {
+      "nombre": "Dedo queso",
+      "precio": 3000
+    },
+    {
+      "nombre": "Oreo tubo",
+      "precio": 4500
+    },
+    {
+      "nombre": "Oreo x4",
+      "precio": 2500
+    },
+    {
+      "nombre": "Oreo x6 ",
+      "precio": 3500
+    },
+    {
+      "nombre": "Wafer Milo",
+      "precio": 3500
+    },
+    {
+      "nombre": "Trident 18",
+      "precio": 2500
+    },
+    {
+      "nombre": "Trident 24",
+      "precio": 1500
+    },
+    {
+      "nombre": "Arepa Jamon Y queso",
+      "precio": 3500
+    },
+    {
+      "nombre": "Gatorade",
+      "precio": 4500
+    },
+    {
+      "nombre": "Barrita Chocorramo",
+      "precio": 2500
+    },
+    {
+      "nombre": "Barra Bonbonbum",
+      "precio": 500
+    },
+    {
+      "nombre": "Gomas gusanos",
+      "precio": 600
+    },
+    {
+      "nombre": "Kick Mini",
+      "precio": 1000
+    },
+    {
+      "nombre": "Max Combi",
+      "precio": 100
+    },
+    {
+      "nombre": "Papas Margarita",
+      "precio": 3500
+    },
+    {
+      "nombre": "Empanada Vegana",
+      "precio": 2500
+    },
+    {
+      "nombre": "Hamburguesa Vegana",
+      "precio": 6000
     }
   ]
 }
