@@ -1,12 +1,16 @@
 {
   "productos": [
     {
+      "nombre": "nombre_producto",
+      "precio": null
+    },
+    {
       "nombre": "Agua Cristal grande",
       "precio": 2200
     },
     {
       "nombre": "Agua Cristal Pequeña",
-      "precio": 1100
+      "precio": 1200
     },
     {
       "nombre": "Almendras Italo",
@@ -46,7 +50,7 @@
     },
     {
       "nombre": "Brownies",
-      "precio": 3800
+      "precio": 4000
     },
     {
       "nombre": "Chidos",
@@ -58,7 +62,7 @@
     },
     {
       "nombre": "Choclitos",
-      "precio": 2500
+      "precio": 3500
     },
     {
       "nombre": "Choco Cono",
@@ -134,7 +138,7 @@
     },
     {
       "nombre": "Galletas club social ",
-      "precio": 2000
+      "precio": 2500
     },
     {
       "nombre": "Galletas de leche",
@@ -154,7 +158,7 @@
     },
     {
       "nombre": "Gaseosa 0 ",
-      "precio": 2000
+      "precio": 2500
     },
     {
       "nombre": "H2O 600 ML",
@@ -201,8 +205,8 @@
       "precio": 1800
     },
     {
-      "nombre": "Maicitos",
-      "precio": 2500
+      "nombre": "Maizitos",
+      "precio": 3000
     },
     {
       "nombre": "Maní super ricas",
@@ -242,7 +246,7 @@
     },
     {
       "nombre": "Paleta Kids",
-      "precio": 2000
+      "precio": 3000
     },
     {
       "nombre": "Papas super ricas",
@@ -274,7 +278,7 @@
     },
     {
       "nombre": "Pizza",
-      "precio": 4000
+      "precio": 3000
     },
     {
       "nombre": "Polet",
@@ -302,7 +306,7 @@
     },
     {
       "nombre": "Sandwich de pollo",
-      "precio": 5000
+      "precio": 6000
     },
     {
       "nombre": "Tajaditas o Tajamiel",
@@ -314,7 +318,7 @@
     },
     {
       "nombre": "Tea Botella x 500 ml ",
-      "precio": 3500
+      "precio": 4500
     },
     {
       "nombre": "Todo rico",
@@ -322,7 +326,7 @@
     },
     {
       "nombre": "Todo Rico Familiar  ",
-      "precio": 8500
+      "precio": 8800
     },
     {
       "nombre": "torta decorado porciones",
@@ -330,11 +334,11 @@
     },
     {
       "nombre": "Tostacos",
-      "precio": 2500
+      "precio": 3000
     },
     {
       "nombre": "Tostacos picantes",
-      "precio": 2500
+      "precio": 3000
     },
     {
       "nombre": "Trocitos",
@@ -346,7 +350,7 @@
     },
     {
       "nombre": "Vaso Aloha Kola Roman",
-      "precio": 4500
+      "precio": 5000
     },
     {
       "nombre": "Vaso Fruta ",
@@ -442,7 +446,7 @@
     },
     {
       "nombre": "Champitas grandes",
-      "precio": 7000
+      "precio": 8800
     },
     {
       "nombre": "Masmelos",
@@ -462,15 +466,15 @@
     },
     {
       "nombre": "Mentas Krash",
-      "precio": 300
+      "precio": 2000
     },
     {
       "nombre": "Soda Hatsu",
-      "precio": 3000
+      "precio": 3500
     },
     {
       "nombre": "Compotas",
-      "precio": 3500
+      "precio": 4000
     },
     {
       "nombre": "Agua con Gas",
@@ -534,7 +538,7 @@
     },
     {
       "nombre": "Max Combi",
-      "precio": 100
+      "precio": 200
     },
     {
       "nombre": "Papas Margarita",
@@ -547,6 +551,22 @@
     {
       "nombre": "Hamburguesa Vegana",
       "precio": 6000
+    },
+    {
+      "nombre": "Donas Bimbo",
+      "precio": 3800
+    },
+    {
+      "nombre": "Gatorade Litro",
+      "precio": 7000
+    },
+    {
+      "nombre": "Bubaloo",
+      "precio": 300
+    },
+    {
+      "nombre": "Trident x 40",
+      "precio": 800
     }
   ]
 }
